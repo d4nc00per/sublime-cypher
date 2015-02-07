@@ -1,18 +1,11 @@
-# Sublime Text 2 plugin - Cypher
+# Sublime Text 3 plugin - Cypher
 
-A plugin for working with [Neo4j](http://www.neo4j.org)'s [Cypher](http://docs.neo4j.org/chunked/milestone/cypher-query-lang.html) query language in [SublimeText](http://www.sublimetext.com).
+A plugin for working with [Neo4j](http://www.neo4j.org)'s [Cypher](http://docs.neo4j.org/chunked/milestone/cypher-query-lang.html) query language in [SublimeText3](http://www.sublimetext.com/3).
 
-
-# Installation
-
-* If you don't have it already install [Sublime Package Control](http://wbond.net/sublime_packages/package_control)
-* See [Package Control usage](http://wbond.net/sublime_packages/package_control/usage)
-* Open the Command Pallete (cmd+shift+p)
-* Select "Install Package"
-* Select "Cyper"
-
-The plugin will detect files ending in `.cql` or `.cyp` as Cypher, optionally just select Cypher from the Syntax menu. 
-
+#Installation
+* Download the zip file.
+* Change the file extension from zip to sublime-package
+* Copy the file to your `.../AppData/Roaming/Sublime Text 3/Installed Packages` directory
 
 # Usage
 
@@ -21,11 +14,6 @@ The plugin will detect files ending in `.cql` or `.cyp` as Cypher, optionally ju
 * The results or error will be shown in the console, which can be opened by (ctrl+`)
 * If no text is selected, all the text in the file is run as a single query
 
-
 # Future Plans
-
-* Auto selecting the query under the cursor
-* Auto completion for Cypher keywords and functions, etc
-* Auto completion based on data in the DB
-* Cypher 2 support
-
+* Merge with the original
+* Get package on package control
